@@ -1,6 +1,6 @@
 require('./models');
 var restify = require('restify');
-var port = 3000;
+var port = 8080;
 
   var server = restify.createServer({
     name: 'Boise Code Camp Demo',
