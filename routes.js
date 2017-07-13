@@ -1,5 +1,16 @@
-var server = require('./index');
+var server = require("./app");
 
-server.get('/api/v1/posts', (req, res, next) => {
-    res.send(200, 'Hello World!');
+server.get('/', function(req, res, next){
+    res.send('Hello World!');
 });
+
+var postsController = require("./controllers/postsController");
+
+/*** TODO
+* Add a controller
+* Implement GET/READ ALL
+* Implement GET/READ ONE
+* Implement PUT/UPDATE
+* Implement CREATE/POST
+* Implement DELETE
+***/ 
