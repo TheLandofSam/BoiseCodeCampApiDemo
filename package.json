@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/djbreen7/BoiseCodeCampApiDemo#readme",
   "dependencies": {
-    "restify": "^5.0.0"
+    "body-parser": "^1.17.2",
+    "mysql2": "^1.3.6",
+    "restify": "^5.0.0",
+    "sequelize": "^4.3.2"
   }
 }

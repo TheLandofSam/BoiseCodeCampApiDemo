@@ -1,3 +1,4 @@
+var bodyParser = require('body-parser');
 var restify = require('restify');
 var port = 3000;
 
