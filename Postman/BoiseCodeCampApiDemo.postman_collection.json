@@ -1,0 +1,173 @@
+{
+	"id": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+	"name": "BoiseCodeCampApiDemo",
+	"description": "",
+	"order": [
+		"0a5245b9-1b87-85ec-af99-39582e520863",
+		"e29ee565-a846-198a-d5ac-934da1af27e6",
+		"18790587-09e5-da2b-aab8-f27af65b8456",
+		"90c2c9e9-238d-06de-ba7f-80ea9434ea36",
+		"da624c7d-11f8-31fa-23fe-78441add3a81",
+		"077ef5bd-74fb-1c4a-c62e-363d873045ac"
+	],
+	"folders": [],
+	"timestamp": 1499988681831,
+	"owner": "1065318",
+	"public": false,
+	"requests": [
+		{
+			"id": "077ef5bd-74fb-1c4a-c62e-363d873045ac",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/api/v1/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500005913431,
+			"name": "/api/v1/posts (create)",
+			"description": "",
+			"collectionId": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+			"responses": []
+		},
+		{
+			"id": "0a5245b9-1b87-85ec-af99-39582e520863",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+			"data": null,
+			"dataMode": "params",
+			"name": "/",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1499988900571,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "18790587-09e5-da2b-aab8-f27af65b8456",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/api/v1/posts/:id",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500005964854,
+			"name": "/api/v1/posts/:id (view)",
+			"description": "",
+			"collectionId": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+			"responses": []
+		},
+		{
+			"id": "90c2c9e9-238d-06de-ba7f-80ea9434ea36",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/api/v1/posts/:id",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "PUT",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500006074117,
+			"name": "/api/v1/posts/:id (update)",
+			"description": "",
+			"collectionId": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+			"responses": []
+		},
+		{
+			"id": "da624c7d-11f8-31fa-23fe-78441add3a81",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/api/v1/posts/:id",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500006133927,
+			"name": "/api/v1/posts/:id (remove)",
+			"description": "",
+			"collectionId": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+			"responses": []
+		},
+		{
+			"id": "e29ee565-a846-198a-d5ac-934da1af27e6",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/api/v1/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500005913431,
+			"name": "/api/v1/posts (index)",
+			"description": "",
+			"collectionId": "9edf11e5-3bc2-ded7-74d3-b5d03e675aa9",
+			"responses": []
+		}
+	]
+}
