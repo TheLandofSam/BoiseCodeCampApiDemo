@@ -1,8 +1,14 @@
 var server = require("./app");
+let postsController = require("./controllers/postsController");
 
 server.get('/', function(req, res, next){
-    res.send('Hello World!');
+    res.send('Hello Kitties!');
 });
+//get all
+server.get('/api/v1/posts', postsController.index);
+//get read one
+server.get('api/v1/posts/:id', postsController.view);
+
 
 /*** TODO
 * Add a controller
