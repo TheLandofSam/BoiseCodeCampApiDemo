@@ -22,11 +22,23 @@ exports.view = (req, res, next) => {
 }
 
 exports.update = (req, res, next) => {
-
+  Post.findOne({
+    where: {
+      id: req.params.id
+    }
+  })
+  .then(function(post){
+    post.update(req.body);
+    post.send(post);
+  })
+  
 }
 
 exports.create = (req, res, next) => {
-
+  Post.create(req.body)
+  .then(function(post){
+    res.send(post);
+  })
 }
 
 exports.remove = (req, res, next) => {
