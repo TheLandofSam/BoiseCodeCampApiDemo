@@ -9,6 +9,11 @@ exports.index = (req, res, next) => {
   }
   )
 }
+//this is an example of the above promise if it was written with async08, which is a node update:
+// exports.index = async (req, res, next) => {
+//     await res.send(Post.findAll());
+// } 
+
 
 exports.view = (req, res, next) => {
   Post.findOne({
