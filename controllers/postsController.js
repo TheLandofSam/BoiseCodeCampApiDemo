@@ -42,5 +42,14 @@ exports.create = (req, res, next) => {
 }
 
 exports.remove = (req, res, next) => {
+  Post.findOne({
+    where: {
+      id:req.params.id
+    }
 
+  })
+  .then(function(post){
+    post.destroy();
+    res.send("Post deleted");
+  })
 }

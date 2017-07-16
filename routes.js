@@ -13,7 +13,7 @@ server.put('/api/v1/posts/:id', postsController.update);
 //create
 server.post('/api/v1/posts', postsController.create);
 //remove
-server.delete('/api/v1/posts:id', postsController.remove);
+server.delete('/api/v1/posts/:id', postsController.remove);
 
 
 /*** TODO
